@@ -1,5 +1,7 @@
-import math, os
+import math
+import os
 fileDir = os.path.dirname(os.path.abspath(__file__))
+
 
 def day1_1():
 	cnt = 0
@@ -9,5 +11,6 @@ def day1_1():
 			cnt += math.floor(val/3) - 2
 	
 	return cnt
+
 
 print(day1_1())
